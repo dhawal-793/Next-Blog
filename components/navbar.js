@@ -1,30 +1,6 @@
 import Link from 'next/link'
-
+import navLinks from '@/data/navlinks'
 const Navbar = () => {
-    const navLinks = [
-        {
-            id: 1,
-            name: "Home",
-            link: "/"
-        },
-        {
-            id: 2,
-            name: "About",
-            link: "/about"
-        },
-        {
-            id: 3,
-            name: "Blog",
-            link: "/blogs"
-        },
-        {
-            id: 4,
-            name: "Contact",
-            link: "/contact"
-        },
-    ];
-
-
     return (
         <>
             <nav className="fixed flex justify-center items-center px-5 w-full h-20 ">
