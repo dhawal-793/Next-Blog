@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 const Navbar = () => {
-
     const navLinks = [
         {
             id: 1,
