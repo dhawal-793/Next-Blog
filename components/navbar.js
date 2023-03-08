@@ -3,7 +3,7 @@ import navLinks from '@/data/navlinks'
 const Navbar = () => {
     return (
         <>
-            <nav className="fixed flex justify-center items-center px-5 w-full h-20 ">
+            <nav className="fixed flex justify-center items-center px-5 w-full h-20 backdrop-blur-[2px]">
                 <ul className="flex">
                     {navLinks.map(({ id, name, link, href }) => {
                         return (
